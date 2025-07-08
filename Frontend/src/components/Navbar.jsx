@@ -14,7 +14,8 @@ function Navbar() {
     { path: '/video-tutorials', label: 'Video Tutorials', icon: 'fas fa-video' },
     { path: '/exercises', label: 'Exercises', icon: 'fas fa-dumbbell' },
     { path: '/consult-doctor', label: 'Consult Doctor', icon: 'fas fa-user-md' },
-    { path: '/pregnancy', label: 'Pregnancy Info', icon: 'fas fa-baby' }
+    { path: '/pregnancy', label: 'Pregnancy Info', icon: 'fas fa-baby' },
+    { path: '/my-reports', label: 'My Reports', icon: 'fas fa-file-medical' }
   ]
 
   const isActive = (path) => location.pathname === path

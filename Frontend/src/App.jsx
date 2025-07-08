@@ -13,6 +13,7 @@ import Exercises from './pages/Exercises'
 import VideoTutorials from './pages/VideoTutorials'
 import ConsultDoctor from './pages/ConsultDoctor'
 import MaternalApproach from './pages/MaternalApproach'
+import MyReports from './pages/MyReports';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
             <Route path="/video-tutorials" element={<VideoTutorials />} />
             <Route path="/consult-doctor" element={<ConsultDoctor />} />
             <Route path="/maternal-approach" element={<MaternalApproach />} />
+            <Route path="/my-reports" element={<MyReports />} />
           </Routes>
         </main>
       </div>
